@@ -17,5 +17,10 @@ pipeline {
                 echo 'My Scripted Pipeline'
             }
         }
+        stage('Destory') {
+            steps {
+                 echo 'This needs to be Destory'
+            }
+        }
     }
 }
