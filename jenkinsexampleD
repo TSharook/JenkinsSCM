@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('INIT') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'This is My Jenkins world'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'My Scripted Pipeline'
+            }
+        }
+    }
+}
